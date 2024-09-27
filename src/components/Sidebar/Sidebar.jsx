@@ -32,7 +32,7 @@ const Sidebar = () => {
         <div className="p-4">
           {/* Sidebar content */}
           <div className='flex justify-between items-center relative'>
-            <Link to="/mern-pro1-intern/"
+            <Link to="/"
               onClick={toggleSidebar}
             >
               <img className='w-[8rem] h-[3.5rem] md:w-36 md:h-16 text-lg font-semibold mb-4' src="https://xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&w=640&q=75" alt="" />
@@ -57,7 +57,7 @@ const Sidebar = () => {
               });
             }} 
             >
-                <Link to='/mern-pro1-intern/' className='block rounded-3xl p-2'>Home</Link>
+                <Link to='/' className='block rounded-3xl p-2'>Home</Link>
             </li>
             <li className={`rounded-3xl`}
             >
@@ -96,7 +96,7 @@ const Sidebar = () => {
                           });
                         }}
                       >
-                        <Link to="/mern-pro1-intern/services/fintech" className='block px-2 py-1'>FinTech Development</Link>
+                        <Link to="/services/fintech" className='block px-2 py-1'>FinTech Development</Link>
                       </li>
                       {/* <li className='hover:bg-gray-300 transition-all duration-200 rounded-lg cursor-pointer'
                         onClick={() => {
@@ -169,7 +169,7 @@ const Sidebar = () => {
                   });
                 }} 
             >
-              <Link to="/mern-pro1-intern/about" className='block p-2'>About</Link>
+              <Link to="/about" className='block p-2'>About</Link>
             </li>
             <li className=" hover:bg-gray-300 rounded-3xl transition-all duration-300"
                 onClick={() => {
@@ -180,7 +180,7 @@ const Sidebar = () => {
                   });
                 }} 
             >
-                <Link to="/mern-pro1-intern/contact" className='block p-2'>Contact</Link>
+                <Link to="/contact" className='block p-2'>Contact</Link>
             </li>
           </ul>
         </div>
